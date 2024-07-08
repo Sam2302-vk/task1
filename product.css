@@ -1,0 +1,42 @@
+.head{
+    display: flex;
+    background-color: burlywood;
+}
+.head h2{
+    margin: 10px;
+}
+.nav a{
+    display: inline-flex;
+    padding-left: 200px;
+    
+    
+}
+.nav:hover{
+    background-color: cadetblue;
+    cursor: pointer;
+
+}
+.nav{
+    background-color: cornflowerblue;
+}
+.products img {
+       width: 250px;
+       height: 250px;
+}
+.products{
+    display:flex
+    
+}
+.products img{
+    margin-left: 20px;
+}
+.products h3{
+    text-align: center;
+}
+.products button{
+    margin-left: 100px;
+}
+button:hover{
+    background-color: rgb(123, 245, 1);
+    cursor: pointer;
+}
